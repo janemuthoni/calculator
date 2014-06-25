@@ -1,0 +1,46 @@
+package com.example.calculatorloise;
+
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.ActionBar;
+import android.support.v4.app.Fragment;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.os.Build;
+
+public class RegisterScreen extends ActionBarActivity implements OnClickListener {
+     //declaration of values
+	EditText etfirstname ,etidno ,etemail ,etpassword; 
+	
+	Button btnCancel ,btnSubmit;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.register);
+        //initialization of values
+		   etfirstname=(EditText) findViewById(R.id.registerfirstname);
+		   etemail=(EditText) findViewById(R.id.registeremail);
+		   etidno=(EditText) findViewById(R.id.registeridno);
+		   etpassword=(EditText) findViewById(R.id.registerpassword);
+		   btnCancel=(Button) findViewById(R.id.registerCancel);
+		   btnCancel.setOnClickListener(this);
+		   btnSubmit=(Button) findViewById(R.id.registerSubmit);
+		   btnSubmit.setOnClickListener(this);
+		
+	}
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

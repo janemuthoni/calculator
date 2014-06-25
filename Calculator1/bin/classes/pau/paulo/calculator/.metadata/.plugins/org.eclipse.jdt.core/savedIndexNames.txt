@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+/home/akirachix/workspace/Calculator/src/pau/paulo/calculator/.metadata/.plugins/org.eclipse.jdt.core
+640895289.index
+240800485.index
