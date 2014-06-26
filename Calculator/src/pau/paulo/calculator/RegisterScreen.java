@@ -34,7 +34,7 @@ public class RegisterScreen extends ActionBarActivity implements OnClickListener
 	public void onClick(View v){
 		switch (v.getId()) {
 		case R.id.buttonRegisterSubmit:
-			Toast.makeText(getApplicationContext(), "welcome to home screen", Toast.LENGTH_LONG).show();
+			Toast.makeText(getApplicationContext(), "welcome to login screen", Toast.LENGTH_LONG).show();
 			startActivity(new Intent(getApplicationContext(),LoginScreen.class));
 			
 			

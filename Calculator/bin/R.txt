@@ -263,17 +263,16 @@ int id action_settings 0x7f050055
 int id activity_chooser_view_content 0x7f050025
 int id always 0x7f05000b
 int id beginning 0x7f050011
-int id buttonAdd 0x7f050040
+int id buttonAdd 0x7f05003e
 int id buttonCancellogin 0x7f05004b
 int id buttonRegisterCancel 0x7f05004e
 int id buttonRegisterSubmit 0x7f05004c
 int id buttondivision 0x7f05003f
 int id buttonlogin 0x7f050053
-int id buttonmultiply 0x7f050043
+int id buttonmultiply 0x7f050041
 int id buttonregister 0x7f050054
-int id buttonresult 0x7f050044
 int id buttonsubmitlogin 0x7f05004a
-int id buttonsubtraction 0x7f050042
+int id buttonsubtraction 0x7f050040
 int id checkbox 0x7f05002d
 int id collapseActionView 0x7f05000d
 int id container 0x7f05003c
@@ -285,9 +284,9 @@ int id editText1 0x7f050049
 int id editText2 0x7f050047
 int id editText3 0x7f050052
 int id editText4 0x7f05004f
-int id editTextnumbertwo 0x7f050045
+int id editTextnumbertwo 0x7f050044
 int id edit_query 0x7f050030
-int id editnumberone 0x7f05003e
+int id editnumberone 0x7f050042
 int id email 0x7f050046
 int id end 0x7f050013
 int id expand_activities_button 0x7f050026
@@ -306,7 +305,7 @@ int id never 0x7f050009
 int id none 0x7f050010
 int id normal 0x7f050000
 int id numberone 0x7f05003d
-int id numbertwo 0x7f050041
+int id numbertwo 0x7f050043
 int id password 0x7f050048
 int id progress_circular 0x7f050018
 int id progress_horizontal 0x7f050019
@@ -331,6 +330,7 @@ int id submit_area 0x7f050039
 int id tabMode 0x7f050002
 int id title 0x7f05002b
 int id top_action_bar 0x7f050020
+int id tvresults 0x7f050045
 int id up 0x7f050021
 int id useLogo 0x7f050003
 int id withText 0x7f05000c
@@ -384,6 +384,7 @@ int string Textviewfirstname 0x7f0a0019
 int string Textviewidnumber 0x7f0a001b
 int string Textviewnumberone 0x7f0a001d
 int string Textviewnumbertwo 0x7f0a001e
+int string Textviewresults 0x7f0a001f
 int string Textviewsecondname 0x7f0a001a
 int string abc_action_bar_home_description 0x7f0a0001
 int string abc_action_bar_up_description 0x7f0a0002
@@ -408,7 +409,6 @@ int string buttondivision 0x7f0a0022
 int string buttonlogin 0x7f0a0014
 int string buttonmultiply 0x7f0a0023
 int string buttonregister 0x7f0a0015
-int string buttonresult 0x7f0a001f
 int string buttonsubtraction 0x7f0a0021
 int string hello_world 0x7f0a000f
 int string password 0x7f0a0011

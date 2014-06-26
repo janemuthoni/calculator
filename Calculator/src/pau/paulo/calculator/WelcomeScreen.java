@@ -32,7 +32,7 @@ public class WelcomeScreen extends ActionBarActivity implements OnClickListener 
 
 		switch (v.getId()) {
 		case R.id.buttonlogin:
-			Toast.makeText(getApplicationContext(), "welcome to home screen", Toast.LENGTH_SHORT).show();
+			Toast.makeText(getApplicationContext(), "welcome to login screen", Toast.LENGTH_SHORT).show();
 			
 			 startActivity(new Intent(getApplicationContext(), LoginScreen.class));
 			break;
@@ -47,29 +47,4 @@ public class WelcomeScreen extends ActionBarActivity implements OnClickListener 
 	}
 
 }
-
-// @Override
-
-// @Override
-// public void onClick(View v) {
-// TODO Auto-generated method stub
-// Intent o=new Intent(getApplicationContext(),register.class);
-// startActivity(o);
-
-// }
-// });
-
-// btnCancel=(Button)findViewById(R.id.Cancel);
-// btnCancel.setOnClickListener(new View.OnClickListener() {
-
-// @Override
-// public void onClick(View v) {
-// TODO Auto-generated method stub
-// Intent n=new Intent(getApplicationContext(),Welcome.class);
-// startActivity(n);
-
-// }
-// });
-
-// }
 

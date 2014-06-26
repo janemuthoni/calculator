@@ -19,7 +19,7 @@
     <string name="Textviewemail">email</string>
     <string name="Textviewnumberone">numberone</string>
     <string name="Textviewnumbertwo">numbertwo</string>
-    <string name="buttonresult">result</string>
+    <string name="Textviewresults">results</string>
     <string name="buttonAdd">Add</string>
     <string name="buttonsubtraction">subtraction</string>
     <string name="buttondivision">division</string>

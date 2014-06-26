@@ -9,38 +9,25 @@
         android:id="@+id/numberone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_margin="10dp"
         android:background="@color/white"
         android:text="@string/Textviewnumberone"
         android:textColor="@color/black"
         android:textSize="20sp" />
 
-    <EditText
-        android:id="@+id/editnumberone"
+      <Button
+        android:id="@+id/buttonAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/numberone"
-        android:ems="10"
-        android:inputType="number" >
-        
-        
-   
-        <requestFocus />
-    </EditText>
-
-    <Button
-        android:id="@+id/buttondivision"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/buttonAdd"
-        android:layout_alignLeft="@+id/numbertwo"
-        android:layout_marginBottom="32dp"
-        android:layout_marginLeft="15dp"
+        android:layout_alignLeft="@+id/buttondivision"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttondivision"
+        android:layout_marginBottom="51dp"
         android:background="@color/white"
-        android:text="@string/buttondivision"
+        android:text="@string/buttonAdd"
         android:textSize="20sp" />
-
+    
     <Button
         android:id="@+id/buttonsubtraction"
         android:layout_width="wrap_content"
@@ -49,63 +36,80 @@
         android:layout_alignBottom="@+id/buttondivision"
         android:layout_alignParentRight="true"
         android:layout_marginRight="56dp"
+        android:layout_toRightOf="@+id/numberone"
         android:background="@color/white"
         android:text="@string/buttonsubtraction"
         android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/buttonAdd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/buttondivision"
-        android:layout_marginBottom="51dp"
-        android:background="@color/white"
-        android:text="@string/buttonAdd"
-        android:textSize="20sp" />
-
+  
     <Button
         android:id="@+id/buttonmultiply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/buttonAdd"
         android:layout_alignBottom="@+id/buttonAdd"
+        android:layout_alignLeft="@+id/buttonsubtraction"
         android:layout_alignRight="@+id/buttonsubtraction"
         android:background="@color/white"
         android:text="@string/buttonmultiply"
         android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/buttonresult"
+    <EditText
+        android:id="@+id/editnumberone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/buttondivision"
-        android:layout_centerVertical="true"
-        android:layout_toLeftOf="@+id/buttonsubtraction"
+        android:layout_alignLeft="@+id/numberone"
+        android:layout_below="@+id/numberone"
+        
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/black" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/numbertwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editnumberone"
+        android:layout_marginTop="14dp"
         android:background="@color/white"
-        android:text="@string/buttonresult"
+        android:text="@string/Textviewnumbertwo"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editTextnumbertwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/buttonresult"
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="21dp"
+        android:layout_below="@+id/numbertwo"
+        android:layout_marginTop="25dp"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="number"
+        android:textColor="@color/black" />
 
-    <TextView
-        android:id="@+id/numbertwo"
+    <Button
+        android:id="@+id/buttondivision"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editTextnumbertwo"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/buttonAdd"
+        android:layout_alignLeft="@+id/editnumberone"
+        android:layout_marginBottom="28dp"
         android:background="@color/white"
-        android:text="@string/Textviewnumbertwo"
-        android:textColor="@color/black"
+        android:text="@string/buttondivision"
         android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvresults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/buttondivision"
+        android:layout_centerVertical="true"
+        android:text="@string/Textviewresults"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
 
 </RelativeLayout>

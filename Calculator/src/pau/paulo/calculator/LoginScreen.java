@@ -16,7 +16,6 @@ public class LoginScreen extends ActionBarActivity implements OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		
 		setContentView(R.layout.login);
 		
 		btnsubmit = (Button)findViewById(R.id.buttonsubmitlogin);
@@ -24,25 +23,22 @@ public class LoginScreen extends ActionBarActivity implements OnClickListener {
         
 		btnCancel =(Button)findViewById(R.id.buttonCancellogin);
 		btnCancel.setOnClickListener(this);
-		
-		
-		
-	}
+}
 
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.buttonsubmitlogin:
-			Toast.makeText(getApplicationContext(), "welcome register", Toast.LENGTH_LONG).show();
+			Toast.makeText(getApplicationContext(), "welcome home screen", Toast.LENGTH_LONG).show();
 			startActivity(new Intent(getApplicationContext(),HomeScreen.class));
 			
-			break;
+		 break;
 		case R.id.buttonCancellogin:
 			Toast.makeText(getApplicationContext(), "welcome home page", Toast.LENGTH_SHORT).show();
 			startActivity(new Intent(getApplicationContext(),WelcomeScreen.class));
 
-		default:
-			break;
+default:
+break;
 			
 			
 			
